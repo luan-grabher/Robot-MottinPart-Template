@@ -84,7 +84,7 @@ public class Model {
             ImportationModel modelo = new ImportationModel(importation.getNome(), mes, ano, importation, null);
 
             //Pega lctos
-            List<LctoTemplate> lctos = importation.getLctos();
+            //List<LctoTemplate> lctos = importation.getLctos();
             modelo.criarTemplateDosLancamentos(importation);
         }
     }
